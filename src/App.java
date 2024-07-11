@@ -56,15 +56,6 @@ public class App {
         double valorConvertido = conv.convert(moedaOrigem, moedaDestino, valor);
         System.out.println("Valor convertido: " +valorConvertido);
         
-        
-        
-
-        
-        
-
-
-
-
         System.out.println("Deseja fazer outra conversão? (S para sim/ N para Não)");
         char resposta = ent.next().charAt(0); 
         if (resposta != 'S' && resposta != 's') {
